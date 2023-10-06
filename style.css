@@ -40,18 +40,20 @@ header > p {
 }
 
 p#dif {
-    text-decoration: none;
     background-color: white;
-    color: black;
     text-align: right;
     padding-bottom: 10px;
-    
 }
 
-    p#dif a:hover{
-        text-decoration: underline;
-        color: brown;
-    }
+p#dif a {
+    text-decoration: none;
+    color: blue;
+}
+
+p#dif a:hover{
+    text-decoration: underline;
+    color: black;
+}
 
 header a, footer a {
     color: white;
